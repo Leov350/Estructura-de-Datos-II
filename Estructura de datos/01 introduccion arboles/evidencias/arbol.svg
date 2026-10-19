@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+.node{fill:#e8f1ff;stroke:#315a8a;stroke-width:2}
+.root{fill:#cfe4ff;stroke:#1f4775;stroke-width:3}
+.label{font-family:Arial,sans-serif;font-size:20px;fill:#172b4d;text-anchor:middle;dominant-baseline:middle}
+.edge{stroke:#627d98;stroke-width:2}
+.note{font-family:Arial,sans-serif;font-size:15px;fill:#334e68}
+</style>
+<g class="edge">
+<line x1="450" y1="55" x2="240" y2="135"/><line x1="450" y1="55" x2="450" y2="135"/><line x1="450" y1="55" x2="660" y2="135"/>
+<line x1="240" y1="155" x2="165" y2="235"/><line x1="240" y1="155" x2="315" y2="235"/>
+<line x1="450" y1="155" x2="390" y2="235"/><line x1="450" y1="155" x2="510" y2="235"/>
+<line x1="660" y1="155" x2="660" y2="235"/>
+<line x1="165" y1="255" x2="120" y2="335"/><line x1="165" y1="255" x2="210" y2="335"/>
+<line x1="510" y1="255" x2="510" y2="335"/>
+</g>
+<g><circle class="root" cx="450" cy="45" r="28"/><text class="label" x="450" y="45">A</text>
+<circle class="node" cx="240" cy="145" r="25"/><text class="label" x="240" y="145">B</text>
+<circle class="node" cx="450" cy="145" r="25"/><text class="label" x="450" y="145">C</text>
+<circle class="node" cx="660" cy="145" r="25"/><text class="label" x="660" y="145">D</text>
+<circle class="node" cx="165" cy="245" r="25"/><text class="label" x="165" y="245">E</text>
+<circle class="node" cx="315" cy="245" r="25"/><text class="label" x="315" y="245">F</text>
+<circle class="node" cx="390" cy="245" r="25"/><text class="label" x="390" y="245">G</text>
+<circle class="node" cx="510" cy="245" r="25"/><text class="label" x="510" y="245">H</text>
+<circle class="node" cx="660" cy="245" r="25"/><text class="label" x="660" y="245">I</text>
+<circle class="node" cx="120" cy="345" r="25"/><text class="label" x="120" y="345">J</text>
+<circle class="node" cx="210" cy="345" r="25"/><text class="label" x="210" y="345">K</text>
+<circle class="node" cx="510" cy="345" r="25"/><text class="label" x="510" y="345">L</text></g>
+<text class="note" x="30" y="420">A es la raíz. F, G, I, J, K y L son hojas.</text>
+<text class="note" x="30" y="445">Grado del árbol: 3 | Altura inicial: 3 aristas | Total: 12 nodos</text>
+<text class="note" x="30" y="470">Cuatro niveles: A / B-C-D / E-F-G-H-I / J-K-L</text>
+</svg>

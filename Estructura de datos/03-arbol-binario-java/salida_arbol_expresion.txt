@@ -1,0 +1,10 @@
+=== ARBOL DE EXPRESION ===
+RAIZ -> *
+   IZQ -> +
+      IZQ -> 3
+      DER -> 5
+   DER -> -
+      IZQ -> 10
+      DER -> 2
+
+Resultado de (3 + 5) * (10 - 2): 64

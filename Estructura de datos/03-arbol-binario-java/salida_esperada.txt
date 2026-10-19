@@ -1,0 +1,27 @@
+=== RAIZ E HIJOS ===
+Raiz: Java
+Hijo izquierdo: Python
+Hijo derecho: C++
+
+=== ARBOL COMPLETO ===
+RAIZ -> Java
+   IZQ -> Python
+      IZQ -> Go
+      DER -> Rust
+   DER -> C++
+      IZQ -> PHP
+      DER -> Swift
+
+=== PROPIEDADES ===
+Nodos: 7
+Hojas: 4
+Altura: 2
+Grado de Java: 2
+Go es hoja?: true
+
+=== CONTROL DE NULL ===
+Hijo izquierdo de Go: null
+Go no tiene hijo izquierdo; la referencia es null.
+
+=== ARBOL VACIO ===
+El arbol esta vacio.

@@ -1,0 +1,7 @@
+EVIDENCIA PENDIENTE
+
+1. Ejecuta el programa con los comandos del README.md.
+2. Toma una captura real de la terminal con los resultados.
+3. Guarda la captura en esta carpeta con el nombre ejecucion.png.
+
+La carpeta no incluye una captura simulada: la evidencia debe corresponder a la ejecución hecha en tu equipo.
