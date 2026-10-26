@@ -1,0 +1,23 @@
+=== PRUEBA FUNCIONAL ===
+Insertados (el 30 repetido no cuenta): 7
+Inorden (debe salir ordenado por codigo):
+[VJ-00020] Aventura #20 - $30.00
+[VJ-00030] Aventura #30 - $40.00
+[VJ-00040] Aventura #40 - $50.00
+[VJ-00050] Aventura #50 - $60.00
+[VJ-00060] Aventura #60 - $10.00
+[VJ-00070] Aventura #70 - $20.00
+[VJ-00080] Aventura #80 - $30.00
+Buscar 60 -> [VJ-00060] Aventura #60 - $10.00
+Buscar 99 -> null
+Altura: 3
+
+=== COMPARACION DE ALTURAS ===
+n        | Altura ordenado  | Altura aleatorio*  | Altura ideal   | Ord/Aleat 
+--------------------------------------------------------------------------------
+10       | 10               | 5.2                | 4              | 1.9x
+100      | 100              | 13.2               | 7              | 7.6x
+500      | 500              | 19.2               | 9              | 26.0x
+1000     | 1000             | 21.4               | 10             | 46.7x
+5000     | 5000             | 28.5               | 13             | 175.4x
+* promedio de 10 corridas con orden aleatorio
